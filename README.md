@@ -1,7 +1,7 @@
 # Google HashCode 2019
 
 Solution by [@raulojeda22](https://github.com/raulojeda22) and me.<br>
-**Points: ** 906.078/1.050.057 points(86.3%)
+**Points:** 906.078/1.050.057 points(86.3%)
 
 ### Outputs
 **a_example:** 15/15 points(100%)<br>
