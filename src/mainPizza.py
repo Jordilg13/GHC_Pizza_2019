@@ -28,7 +28,7 @@ if __name__ == "__main__":
             for y in x:
                 if y == True:
                     countCell += 1
-        
+
         if countCell>countMaxCell:
             print(str(countCell)+"/"+str(totalCells))
             countMaxCell=countCell
@@ -38,3 +38,5 @@ if __name__ == "__main__":
             for x in pizzaMap[1]:
                 text_file.write(str(x[0])+' '+str(x[1])+' '+str(x[2])+' '+str(x[3])+"\n")
             text_file.close()
+        else:
+            print("Worse solution: "+str(countCell)+"/"+str(totalCells))
